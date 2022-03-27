@@ -13,8 +13,9 @@ const generate =()=>{
 generator.addEventListener("click", generate);
 
 
-  
 
+
+  
 
 
 

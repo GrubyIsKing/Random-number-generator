@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
 *{
     margin: 0;
@@ -11,6 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-image: url(./assets/matthias-mullie-sfXBkd7XcB0-unsplash.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 
 .wrapper{
@@ -38,6 +39,8 @@ body{
     justify-content: center;
     align-items: center;
     color: rgb(221, 214, 214);
+    font-size: 30px;
+    text-align: center;
 }
 
 .box{
@@ -58,7 +61,7 @@ body{
     color: white;
 }
 
-p{
+#number{
     font-size: 25px;
 }
 
@@ -84,7 +87,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-h4{
+#generator{
     border-radius: 8px;
     padding: 5px;
     border: 2px solid black;
@@ -99,8 +102,15 @@ h4{
     cursor: pointer;
 }
 
-#generator{
-    width: 150px;
+@media all and (max-width: 500px){
+    .box{
+        width: 300px;
+    }
+    .header{
+        font-size: 20px;
+    }
 }
+
+
 
 
